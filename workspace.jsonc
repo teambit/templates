@@ -26,7 +26,7 @@
     /**
      * default scope for all components in workspace.
      **/
-    "defaultScope": "my-scope"
+    "defaultScope": "teambit.react"
   },
   /**
    * main configuration for component dependency resolution.
@@ -38,11 +38,16 @@
     "packageManager": "teambit.dependencies/pnpm",
     "policy": {
       "dependencies": {
-        "@teambit/design.ui.external-link": "0.0.344",
-        "@teambit/documenter.theme.theme-compositions": "4.1.1",
-        "@teambit/documenter.ui.copy-box": "4.1.1"
+        "@teambit/base-ui.theme.theme-provider": "1.0.1",
+        "@teambit/design.templates.ui.external-link": "0.0.344",
+        "@teambit/documenter.templates.ui.copy-box": "4.1.1",
+        "@teambit/documenter.theme.theme-compositions": "4.1.1"
       },
-      "peerDependencies": {}
+      "peerDependencies": {
+        "@testing-library/react": "12.0.0",
+        "react": "17.0.2",
+        "react-dom": "17.0.2"
+      }
     },
     "packageManagerArgs": [],
     "devFilePatterns": [
@@ -60,7 +65,7 @@
    * see https://harmony-docs.bit.dev/aspects/variants for more info.
    **/
   "teambit.workspace/variants": {
-    "*": {
+    "{templates/ui/*}": {
       "teambit.react/react": {}
     }
   }
