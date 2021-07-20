@@ -2,26 +2,26 @@
 
 {
     "templates/ui/card": {
-        "scope": "",
-        "version": "",
+        "scope": "teambit.react",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "react/templates/ui/card"
     },
     "templates/ui/heading": {
-        "scope": "",
-        "version": "",
+        "scope": "teambit.react",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "react/templates/ui/heading"
     },
     "templates/ui/page": {
-        "scope": "",
-        "version": "",
+        "scope": "teambit.react",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "react/templates/ui/page"
     },
     "templates/ui/text": {
-        "scope": "",
-        "version": "",
+        "scope": "teambit.react",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "react/templates/ui/text"
     },

@@ -2,6 +2,7 @@ import React from 'react';
 import { Heading } from './heading';
 
 export const H1DefaultHeading = () => <Heading>H1 Heading</Heading>;
+
 export const H2Heading = () => <Heading tag="h2">H2 Heading</Heading>;
 
 export const H3Heading = () => <Heading tag="h3">H3 Heading</Heading>;
