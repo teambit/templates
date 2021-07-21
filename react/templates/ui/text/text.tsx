@@ -10,5 +10,5 @@ export type TextProps = {
 } & React.HTMLAttributes<HTMLParagraphElement>;
 
 export function Text({ text, className }: TextProps) {
-  return <p className={classNames(styles.text, className)}>{text}</p>;
+  return <p className={classNames(styles.text, text, className)}>{text}</p>;
 }

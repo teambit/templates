@@ -22,9 +22,14 @@ a {
 }
 
 .texts {
-  margin-top: 20px;
+  margin-top: 2rem;
+}
+
+.h1 {
+  font-size: var(--bit-h-md);
 }
 
 .h2 {
+  font-size: var(--bit-h-sm);
   margin-top: 4rem;
 }

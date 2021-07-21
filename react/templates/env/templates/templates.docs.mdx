@@ -1,0 +1,41 @@
+---
+description: 'A standard React component development environment'
+labels: ['react', 'typescript', 'env', 'extension']
+---
+
+## Overview
+
+A standard React development environment for building modular and reusable MFEs.
+
+### Usage instructions
+
+Create a **variant** in project's `workspace.json` file.  
+Set this extension as the variant's extension.
+
+```json
+{
+  "teambit.workspace/variants": {
+    "{ui/*}": {
+      "teambit.react/templates/env/templates": {}
+    }
+  }
+}
+```
+
+### Compilation
+
+By default, Component compilation is done with the TypeScript compiler. Target format is `ES2015` which
+supports execution from both NodeJS and browser runtimes for server-side rendering.
+
+### Testing
+
+Component testing is done through [Jest](https://jestjs.io/) with the default `teambit.react/react`.
+
+### Extend
+
+This component development environment can be easily extended. Just add the env as a dependency of your extension
+and use the extension API. 
+
+### Adding a Theme
+
+A custom theme has been added to the env which wraps all the composition files with the required theme so they can developed with the correct themeing rather than the browsers default.

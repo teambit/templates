@@ -1,6 +1,4 @@
 .text {
-  font-size: 0.875rem;
-  color: var(--text-color, #718096);
-  margin-top: 0.25rem;
-  line-height: 21px;
+  font-size: var(--bit-p-md);
+  color: var(--bit-text-color);
 }

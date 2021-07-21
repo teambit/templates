@@ -33,7 +33,7 @@ export function Card(
   return (
     <div className={styles.card}>
       <ExternalLink href={link}>
-        <Heading tag="h3" className={styles.heading}>
+        <Heading element="h3" className={styles.heading}>
           {heading}
         </Heading>
         <Text className={styles.text} text={text} />

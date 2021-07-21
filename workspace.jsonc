@@ -1,7 +1,7 @@
 /**
  * this is the main configuration file of your bit workspace.
  * for full documentation, please see: https://harmony-docs.bit.dev/workspace/configurations
- **/ {
+ **/{
   "$schema": "https://static.bit.dev/teambit/schemas/schema.json",
   /**
    * main configuration of the Bit workspace.
@@ -39,9 +39,11 @@
     "policy": {
       "dependencies": {
         "@teambit/base-ui.theme.theme-provider": "1.0.1",
+        "@teambit/design.theme.theme-context": "1.0.1",
         "@teambit/design.ui.external-link": "0.0.344",
-        "@teambit/documenter.ui.copy-box": "4.1.1",
-        "@teambit/documenter.theme.theme-compositions": "4.1.1"
+        "@teambit/documenter.theme.theme-compositions": "4.1.1",
+        "@teambit/documenter.theme.theme-context": "4.0.3",
+        "@teambit/documenter.ui.copy-box": "4.1.1"
       },
       "peerDependencies": {
         "@testing-library/react": "12.0.0",
@@ -50,7 +52,9 @@
       }
     },
     "packageManagerArgs": [],
-    "devFilePatterns": ["**/*.spec.ts"],
+    "devFilePatterns": [
+      "**/*.spec.ts"
+    ],
     "strictPeerDependencies": true,
     "installFromBitDevRegistry": true,
     "savePrefix": ""
@@ -63,8 +67,11 @@
    * see https://harmony-docs.bit.dev/aspects/variants for more info.
    **/
   "teambit.workspace/variants": {
-    "react": {
-      "teambit.react/react": {}
+    "{templates/ui/**}, {templates/pages/**}": {
+      "teambit.react/templates/env/templates": {}
+    },
+    "{templates/env/*}": {
+      "teambit.harmony/aspect": {}
     }
   }
 }

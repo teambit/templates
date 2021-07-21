@@ -1,12 +1,11 @@
 .card {
   display: flex;
   flex-direction: column;
-  background-color: #fff;
+  background-color: var(--bit-background-color);
   border-radius: 0.5rem;
   padding: 1rem;
-  box-shadow: 0 -1px 1px 0 rgba(0, 0, 0, 0.09), 0 2px 2px 0 rgba(0, 0, 0, 0.23);
+  box-shadow: var(--bit-shadow-raised-low);
   overflow: hidden;
-  // position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
@@ -32,8 +31,10 @@
 }
 
 .heading {
-  color: #6c5ce7;
+  color: var(--bit-accent-color);
+  font-size: var(--bit-h-xs);
 }
 .text {
-  color: gray;
+  color: var(--bit-text-color);
+  font-size: var(--bit-p-sm);
 }
