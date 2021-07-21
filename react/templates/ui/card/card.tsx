@@ -39,7 +39,7 @@ export function Card(
         <Text className={styles.text} text={text} />
       </ExternalLink>
       {command ? (
-        <CopyBox className={styles['available-colors']}>{command}</CopyBox>
+        <CopyBox className={styles['copy-box']}>{command}</CopyBox>
       ) : null}
     </div>
   );

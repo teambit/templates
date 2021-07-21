@@ -6,35 +6,23 @@
   padding: 1rem;
   box-shadow: var(--bit-shadow-raised-low);
   overflow: hidden;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  --transform-translate-x: 0;
-  --transform-translate-y: 0;
-  --transform-rotate: 0;
-  --transform-skew-x: 0;
-  --transform-skew-y: 0;
-  --transform-scale-x: 1;
-  --transform-scale-y: 1;
-  transform: translateX(var(--transform-translate-x))
-    translateY(var(--transform-translate-y)) rotate(var(--transform-rotate))
-    skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y))
-    scaleX(var(--transform-scale-x)) scaleY(var(--transform-scale-y));
   &:hover {
-    --transform-scale-x: 1.05;
-    --transform-scale-y: 1.05;
-    transition-property: background-color, border-color, color, fill, stroke,
-      opacity, box-shadow, transform;
-    transition-duration: 0.3s;
+    background-color: var(--bit-bg-dent);
   }
 }
 
 .heading {
   color: var(--bit-accent-color);
   font-size: var(--bit-h-xs);
+  margin-top: 15px;
 }
 .text {
   color: var(--bit-text-color);
   font-size: var(--bit-p-sm);
+}
+.copy-box {
+  margin-bottom: 15px;
+  &:hover {
+    background-color: #fff;
+  }
 }

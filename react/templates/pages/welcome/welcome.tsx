@@ -8,7 +8,7 @@ export function Welcome() {
   return (
       <div className={styles.page}>
         <Heading className={styles.h1}>Welcome to Bit</Heading>
-        <Text text="Edit this component and see it change" />
+        <Text className={styles.texts} text="Edit this component and see it change" />
         <div className={styles.grid}>
           <Card
             link="https://harmony-docs.bit.dev/getting-started/installing-bit"
@@ -36,7 +36,7 @@ export function Welcome() {
         <Heading element="h2" className={styles.h2}>
           Bit CLI
         </Heading>
-        <Text text="Understanding Bit's commands better" />
+        <Text className={styles.texts} text="Understanding Bit's commands better" />
 
         <div className={styles.grid}>
           <Card

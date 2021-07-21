@@ -1,9 +1,10 @@
 .page {
+  max-width: 1400px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
   padding: 2rem;
 }
 a {
@@ -22,11 +23,11 @@ a {
 }
 
 .texts {
-  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .h1 {
-  font-size: var(--bit-h-md);
+  font-size: var(--bit-h-xl);
 }
 
 .h2 {
