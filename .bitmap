@@ -7,11 +7,11 @@
         "mainFile": "index.ts",
         "rootDir": "react/readme"
     },
-    "templates/env/templates": {
-        "scope": "teambit.react",
-        "version": "0.0.1",
+    "templates/envs/my-react": {
+        "scope": "",
+        "version": "",
         "mainFile": "index.ts",
-        "rootDir": "react/templates/env/templates"
+        "rootDir": "react/templates/envs/my-react"
     },
     "templates/pages/welcome": {
         "scope": "teambit.react",

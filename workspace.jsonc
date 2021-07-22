@@ -66,9 +66,9 @@
    **/
   "teambit.workspace/variants": {
     "{templates/ui/**}, {templates/pages/**}": {
-      "teambit.react/templates/env/templates": {}
+      "teambit.react/templates/envs/my-react": {}
     },
-    "{templates/env/*}": {
+    "{templates/envs/*}": {
       "teambit.harmony/aspect": {}
     },
     "{readme}": {
