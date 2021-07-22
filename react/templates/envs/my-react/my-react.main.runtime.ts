@@ -1,7 +1,8 @@
 import { MainRuntime } from '@teambit/cli';
-import { MyReactAspect } from './my-react.aspect';
 import { ReactAspect, ReactMain } from '@teambit/react';
 import { EnvsAspect, EnvsMain } from '@teambit/envs';
+import { MyReactAspect } from './my-react.aspect';
+
 const tsconfig = require('./typescript/tsconfig');
 // const eslintconfig = require('./eslint/eslintconfig');
 // const webpackConfig = require('./webpack/webpack.config');

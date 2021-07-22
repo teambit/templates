@@ -1,7 +1,7 @@
 import { PreviewRuntime } from '@teambit/preview';
 import { ReactAspect, ReactPreview } from '@teambit/react';
-import { MyReactAspect } from './my-react.aspect';
 import { ThemeCompositions } from '@teambit/documenter.theme.theme-compositions';
+import { MyReactAspect } from './my-react.aspect';
 
 export class MyReactPreviewMain {
   static runtime = PreviewRuntime;
