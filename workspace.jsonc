@@ -1,7 +1,7 @@
 /**
  * this is the main configuration file of your bit workspace.
  * for full documentation, please see: https://harmony-docs.bit.dev/workspace/configurations
- **/ {
+ **/{
   "$schema": "https://static.bit.dev/teambit/schemas/schema.json",
   /**
    * main configuration of the Bit workspace.
@@ -38,12 +38,20 @@
     "packageManager": "teambit.dependencies/pnpm",
     "policy": {
       "dependencies": {
+        "@learn-bit-react/base-ui.figma.figma-embed": "0.0.3",
+        "@learn-bit-react/base-ui.ui.layout": "1.0.5",
+        "@learn-bit-react/base-ui.ui.link": "1.0.8",
+        "@learn-bit-react/ecommerce.ui.footer": "1.0.8",
+        "@learn-bit-react/ecommerce.ui.header": "1.0.8",
+        "@learn-bit-react/shoe-store.ui.pages.about-shoes": "1.0.9",
+        "@learn-bit-react/shoe-store.ui.pages.home-shoes": "1.0.9",
         "@teambit/base-ui.theme.theme-provider": "1.0.1",
         "@teambit/design.theme.theme-context": "1.0.1",
         "@teambit/design.ui.external-link": "0.0.344",
         "@teambit/documenter.theme.theme-compositions": "4.1.1",
         "@teambit/documenter.theme.theme-context": "4.0.3",
-        "@teambit/documenter.ui.copy-box": "4.1.1"
+        "@teambit/documenter.ui.copy-box": "4.1.1",
+        "react-router-dom": "5.2.0"
       },
       "peerDependencies": {
         "@testing-library/react": "12.0.0",
@@ -52,7 +60,9 @@
       }
     },
     "packageManagerArgs": [],
-    "devFilePatterns": ["**/*.spec.ts"],
+    "devFilePatterns": [
+      "**/*.spec.ts"
+    ],
     "strictPeerDependencies": true,
     "installFromBitDevRegistry": true,
     "savePrefix": ""
@@ -68,7 +78,13 @@
     "{templates/ui/**}, {templates/pages/**}": {
       "teambit.react/templates/envs/my-react": {}
     },
-    "{templates/envs/*}": {
+    "{templates/styles/**}": {
+      "teambit.react/react": {}
+    },
+    "{templates/themes/**}": {
+      "teambit.react/react": {}
+    },
+    "{templates/envs/*}, {templates/apps/*}": {
       "teambit.harmony/aspect": {}
     },
     "{readme}": {

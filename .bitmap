@@ -2,38 +2,56 @@
 
 {
     "readme": {
-        "scope": "",
-        "version": "",
+        "scope": "teambit.react",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "react/readme"
     },
+    "templates/apps/my-app": {
+        "scope": "teambit.react",
+        "version": "0.0.3",
+        "mainFile": "index.ts",
+        "rootDir": "react/templates/apps/my-app"
+    },
     "templates/envs/my-react": {
-        "scope": "",
-        "version": "",
+        "scope": "teambit.react",
+        "version": "0.0.4",
         "mainFile": "index.ts",
         "rootDir": "react/templates/envs/my-react"
     },
     "templates/pages/welcome": {
         "scope": "teambit.react",
-        "version": "0.0.3",
+        "version": "0.0.6",
         "mainFile": "index.ts",
         "rootDir": "react/templates/pages/welcome"
     },
+    "templates/styles/colors": {
+        "scope": "teambit.react",
+        "version": "0.0.2",
+        "mainFile": "index.ts",
+        "rootDir": "react/templates/styles/colors"
+    },
+    "templates/themes/theme": {
+        "scope": "teambit.react",
+        "version": "0.0.3",
+        "mainFile": "index.ts",
+        "rootDir": "react/templates/themes/theme"
+    },
     "templates/ui/card": {
         "scope": "teambit.react",
-        "version": "0.0.4",
+        "version": "0.0.7",
         "mainFile": "index.ts",
         "rootDir": "react/templates/ui/card"
     },
     "templates/ui/heading": {
         "scope": "teambit.react",
-        "version": "0.0.4",
+        "version": "0.0.7",
         "mainFile": "index.ts",
         "rootDir": "react/templates/ui/heading"
     },
     "templates/ui/text": {
         "scope": "teambit.react",
-        "version": "0.0.3",
+        "version": "0.0.6",
         "mainFile": "index.ts",
         "rootDir": "react/templates/ui/text"
     },
