@@ -30,7 +30,7 @@ export function Welcome() {
           text="lean how to self host these components"
         />
         <Card
-          link="https://bit.dev/"
+          link="https://harmony-docs.bit.dev/getting-started/remote-scope"
           heading="Bit Cloud"
           text="lean how to publish to the Bit cloud"
         />
@@ -52,7 +52,7 @@ export function Welcome() {
           link="https://harmony-docs.bit.dev/building-with-bit/creating-components"
           heading="Create"
           text="create your own components"
-          command="bit create react-component ui/button"
+          command="bit create react ui/button"
         />
         <Card
           link="https://harmony-docs.bit.dev/building-with-bit/consuming-components"
