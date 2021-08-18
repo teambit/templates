@@ -10,7 +10,9 @@ it('should render correct Heading', () => {
 
 it('should render correct text', () => {
   const { getByText } = render(<WelcomePage />);
-  const rendered = getByText('Edit this component and see it change');
+  const rendered = getByText(
+    'Edit this component and see it change in the UI or play with the commands below to learn more about how Bit works.'
+  );
   expect(rendered).toBeTruthy();
 });
 
@@ -28,7 +30,7 @@ it('should render another heading', () => {
 
 it('should render another text', () => {
   const { getByText } = render(<WelcomePage />);
-  const rendered = getByText("Understanding Bit's commands better");
+  const rendered = getByText("Understanding Bit's Commands");
   expect(rendered).toBeTruthy();
 });
 
