@@ -1,7 +1,7 @@
 /**
  * this is the main configuration file of your bit workspace.
  * for full documentation, please see: https://harmony-docs.bit.dev/workspace/configurations
- **/{
+ **/ {
   "$schema": "https://static.bit.dev/teambit/schemas/schema.json",
   /**
    * main configuration of the Bit workspace.
@@ -38,7 +38,6 @@
     "packageManager": "teambit.dependencies/pnpm",
     "policy": {
       "dependencies": {
-        "@learn-bit-react/base-ui.figma.figma-embed": "0.0.3",
         "@learn-bit-react/base-ui.ui.layout": "1.0.5",
         "@learn-bit-react/base-ui.ui.link": "1.0.8",
         "@learn-bit-react/ecommerce.ui.footer": "1.0.8",
@@ -60,9 +59,7 @@
       }
     },
     "packageManagerArgs": [],
-    "devFilePatterns": [
-      "**/*.spec.ts"
-    ],
+    "devFilePatterns": ["**/*.spec.ts"],
     "strictPeerDependencies": true,
     "installFromBitDevRegistry": true,
     "savePrefix": ""
