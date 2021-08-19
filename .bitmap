@@ -29,7 +29,7 @@
     },
     "templates/pages/welcome": {
         "scope": "teambit.react",
-        "version": "0.0.9",
+        "version": "0.0.12",
         "mainFile": "index.ts",
         "rootDir": "react/templates/pages/welcome"
     },
@@ -47,19 +47,19 @@
     },
     "templates/ui/card": {
         "scope": "teambit.react",
-        "version": "0.0.8",
+        "version": "0.0.11",
         "mainFile": "index.ts",
         "rootDir": "react/templates/ui/card"
     },
     "templates/ui/heading": {
         "scope": "teambit.react",
-        "version": "0.0.8",
+        "version": "0.0.11",
         "mainFile": "index.ts",
         "rootDir": "react/templates/ui/heading"
     },
     "templates/ui/text": {
         "scope": "teambit.react",
-        "version": "0.0.7",
+        "version": "0.0.10",
         "mainFile": "index.ts",
         "rootDir": "react/templates/ui/text"
     },
