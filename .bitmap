@@ -23,13 +23,13 @@
     },
     "templates/envs/my-react": {
         "scope": "teambit.react",
-        "version": "0.0.5",
+        "version": "0.0.6",
         "mainFile": "index.ts",
         "rootDir": "react/templates/envs/my-react"
     },
     "templates/pages/welcome": {
         "scope": "teambit.react",
-        "version": "0.0.15",
+        "version": "0.0.16",
         "mainFile": "index.ts",
         "rootDir": "react/templates/pages/welcome"
     },
@@ -47,19 +47,19 @@
     },
     "templates/ui/card": {
         "scope": "teambit.react",
-        "version": "0.0.14",
+        "version": "0.0.15",
         "mainFile": "index.ts",
         "rootDir": "react/templates/ui/card"
     },
     "templates/ui/heading": {
         "scope": "teambit.react",
-        "version": "0.0.13",
+        "version": "0.0.14",
         "mainFile": "index.ts",
         "rootDir": "react/templates/ui/heading"
     },
     "templates/ui/text": {
         "scope": "teambit.react",
-        "version": "0.0.12",
+        "version": "0.0.13",
         "mainFile": "index.ts",
         "rootDir": "react/templates/ui/text"
     },
