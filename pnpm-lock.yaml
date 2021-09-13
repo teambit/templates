@@ -19,12 +19,11 @@ importers:
       '@teambit/mdx.ui.mdx-scope-context': registry.npmjs.org/@teambit/mdx.ui.mdx-scope-context/0.0.368_react-dom@17.0.2+react@17.0.2
       '@testing-library/react': registry.npmjs.org/@testing-library/react/12.0.0_react-dom@17.0.2+react@17.0.2
       classnames: registry.npmjs.org/classnames/2.3.1
-      core-js: registry.npmjs.org/core-js/3.17.2
+      core-js: registry.npmjs.org/core-js/3.17.3
       react: registry.npmjs.org/react/17.0.2
       react-dom: registry.npmjs.org/react-dom/17.0.2_react@17.0.2
       react-router-dom: registry.npmjs.org/react-router-dom/5.2.0_react@17.0.2
     devDependencies:
-      '@learn-bit-react/base-ui.figma.figma-embed': 0.0.3_react-dom@17.0.2+react@17.0.2
       '@types/jest': registry.npmjs.org/@types/jest/26.0.24
       '@types/node': registry.npmjs.org/@types/node/12.20.4
       '@types/react': registry.npmjs.org/@types/react/17.0.20
@@ -32,7 +31,6 @@ importers:
       '@types/testing-library__jest-dom': registry.npmjs.org/@types/testing-library__jest-dom/5.9.5
     specifiers:
       '@babel/runtime': 7.12.18
-      '@learn-bit-react/base-ui.figma.figma-embed': 0.0.3
       '@learn-bit-react/base-ui.ui.layout': 1.0.5
       '@learn-bit-react/base-ui.ui.link': 1.0.8
       '@learn-bit-react/ecommerce.ui.footer': 1.0.8
@@ -55,7 +53,7 @@ importers:
       '@types/react-dom': ^17.0.9
       '@types/testing-library__jest-dom': 5.9.5
       classnames: 2.3.1
-      core-js: ^3.17.2
+      core-js: ^3.17.3
       react: 17.0.2
       react-dom: 17.0.2
       react-router-dom: 5.2.0
@@ -97,19 +95,6 @@ importers:
     specifiers: {}
 lockfileVersion: 5.2
 packages:
-  /@learn-bit-react/base-ui.figma.figma-embed/0.0.3_react-dom@17.0.2+react@17.0.2:
-    dependencies:
-      classnames: registry.npmjs.org/classnames/2.3.1
-      core-js: registry.npmjs.org/core-js/3.15.2
-      react: registry.npmjs.org/react/17.0.2
-      react-dom: registry.npmjs.org/react-dom/17.0.2_react@17.0.2
-    dev: true
-    peerDependencies:
-      react: ^16.8.0 || ^17.0.0
-      react-dom: ^16.8.0 || ^17.0.0
-    resolution:
-      integrity: sha1-rTOwgtieXbNkFnNH3Ih/WO+OaQo=
-      tarball: '@learn-bit-react/base-ui.figma.figma-embed/-/@learn-bit-react-base-ui.figma.figma-embed-0.0.3.tgz'
   /@learn-bit-react/base-ui.styles.button/0.0.5_react-dom@17.0.2+react@17.0.2:
     dependencies:
       core-js: registry.npmjs.org/core-js/3.15.2
@@ -1115,7 +1100,7 @@ packages:
     dependencies:
       '@types/prop-types': registry.npmjs.org/@types/prop-types/15.7.4
       '@types/scheduler': registry.npmjs.org/@types/scheduler/0.16.2
-      csstype: registry.npmjs.org/csstype/3.0.8
+      csstype: registry.npmjs.org/csstype/3.0.9
     dev: true
     name: '@types/react'
     resolution:
@@ -1282,6 +1267,7 @@ packages:
       tarball: https://registry.npmjs.org/classnames/-/classnames-2.2.6.tgz
     version: 2.2.6
   registry.npmjs.org/classnames/2.3.1:
+    dev: false
     name: classnames
     resolution:
       integrity: sha512-OlQdbZ7gLfGarSqxesMesDa5uz7KFbID8Kpq/SxIoNGDqY8lSYs0D+hhtBXhcdB3rcbXArFr7vlHheLk1voeNA==
@@ -1370,6 +1356,7 @@ packages:
       tarball: https://registry.npmjs.org/core-js-pure/-/core-js-pure-3.15.2.tgz
     version: 3.15.2
   registry.npmjs.org/core-js/3.15.2:
+    dev: false
     name: core-js
     requiresBuild: true
     resolution:
@@ -1377,15 +1364,15 @@ packages:
       registry: https://node.bit.dev/
       tarball: https://registry.npmjs.org/core-js/-/core-js-3.15.2.tgz
     version: 3.15.2
-  registry.npmjs.org/core-js/3.17.2:
+  registry.npmjs.org/core-js/3.17.3:
     dev: false
     name: core-js
     requiresBuild: true
     resolution:
-      integrity: sha512-XkbXqhcXeMHPRk2ItS+zQYliAMilea2euoMsnpRRdDad6b2VY6CQQcwz1K8AnWesfw4p165RzY0bTnr3UrbYiA==
+      integrity: sha512-lyvajs+wd8N1hXfzob1LdOCCHFU4bGMbqqmLn1Q4QlCpDqWPpGf+p0nj+LNrvDDG33j0hZXw2nsvvVpHysxyNw==
       registry: https://node.bit.dev/
-      tarball: https://registry.npmjs.org/core-js/-/core-js-3.17.2.tgz
-    version: 3.17.2
+      tarball: https://registry.npmjs.org/core-js/-/core-js-3.17.3.tgz
+    version: 3.17.3
   registry.npmjs.org/core-util-is/1.0.2:
     dev: false
     name: core-util-is
@@ -1394,14 +1381,14 @@ packages:
       registry: https://node.bit.dev/
       tarball: https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.2.tgz
     version: 1.0.2
-  registry.npmjs.org/csstype/3.0.8:
+  registry.npmjs.org/csstype/3.0.9:
     dev: true
     name: csstype
     resolution:
-      integrity: sha512-jXKhWqXPmlUeoQnF/EhTtTl4C9SnrxSH/jZUih3jmO6lBKr99rP3/+FmrMj4EFpOXzMtXHAZkd3x0E6h6Fgflw==
+      integrity: sha512-rpw6JPxK6Rfg1zLOYCSwle2GFOOsnjmDYDaBwEcwoOg4qlsIVCN789VkBZDJAGi4T07gI4YSutR43t9Zz4Lzuw==
       registry: https://node.bit.dev/
-      tarball: https://registry.npmjs.org/csstype/-/csstype-3.0.8.tgz
-    version: 3.0.8
+      tarball: https://registry.npmjs.org/csstype/-/csstype-3.0.9.tgz
+    version: 3.0.9
   registry.npmjs.org/currently-unhandled/0.4.1:
     dependencies:
       array-find-index: registry.npmjs.org/array-find-index/1.0.2
