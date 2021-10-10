@@ -60,10 +60,18 @@ Example:
 To Override the Jest config to ignore transpiling from specific folders add this to the `jestconfig.js` file:
 
 ```js
-const reactJestConfig = require('@teambit/react').jestconfig;
+const reactJestConfig = require('@teambit/react/jest/jest.config');
+const {
+  generateNodeModulesPattern,
+} = require('@teambit/dependencies.modules.packages-excluder');
+const packagesToExclude = ['prop-types', '@teambit'];
+
 module.exports = {
   ...reactJestConfig,
-  transformIgnorePatterns: ['/node_modules/(?!(prop-types|@teambit))']
+  transformIgnorePatterns: [
+    ...reactJestConfig.transformIgnorePatterns,
+    '/' + generateNodeModulesPattern({ packages: packagesToExclude }),
+  ],
 };
 ```
 
@@ -77,8 +85,8 @@ Example:
 module.exports = {
   module: {
     // add your custom rules here
-    rules: []
-  }
+    rules: [],
+  },
 };
 ```
 
@@ -139,8 +147,8 @@ Override the default dependencies in the `my-react.main.runtime` file to include
 ```ts
 react.overrideDependencies({
   devDependencies: {
-    '@types/react': '17.0.3'
-  }
+    '@types/react': '17.0.3',
+  },
 });
 ```
 
