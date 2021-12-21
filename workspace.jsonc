@@ -94,7 +94,6 @@
       "teambit.mdx/mdx": {}
     },
     "react-native/templates/ui": {
-      // "teambit.react/react-native": {}
       "teambit.react/templates/react-native/envs/my-react-native": {}
     },
     "react-native/templates/envs": {
