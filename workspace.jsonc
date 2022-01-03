@@ -35,7 +35,7 @@
     /**
      * choose the package manager for Bit to use. you can choose between 'yarn', 'pnpm'
      */
-    "packageManager": "teambit.dependencies/pnpm",
+    "packageManager": "teambit.dependencies/yarn",
     "policy": {
       "dependencies": {
         "@learn-bit-react/base-ui.ui.layout": "1.0.5",
@@ -50,12 +50,17 @@
         "@teambit/documenter.theme.theme-compositions": "4.1.1",
         "@teambit/documenter.theme.theme-context": "4.0.3",
         "@teambit/documenter.ui.copy-box": "4.1.1",
-        "react-router-dom": "5.2.0"
+        "@types/react-native": "0.66.9"
       },
       "peerDependencies": {
         "@testing-library/react": "12.0.0",
+        "@testing-library/react-native": "9.0.0",
+        "babel-jest": "27.4.5",
         "react": "17.0.2",
-        "react-dom": "17.0.2"
+        "react-dom": "17.0.2",
+        "react-native": "0.66.4",
+        "react-router-dom": "6.2.1",
+        "react-test-renderer": "17.0.2"
       }
     },
     "packageManagerArgs": [],
@@ -72,21 +77,27 @@
    * see https://harmony-docs.bit.dev/aspects/variants for more info.
    **/
   "teambit.workspace/variants": {
-    "{templates/ui/**}, {templates/pages/**}": {
+    "react/templates/ui, react/templates/pages": {
       "teambit.react/react": "-",
       "teambit.react/templates/envs/my-react": {}
     },
-    "{templates/styles/**}": {
+    "react/templates/styles": {
       "teambit.react/react": {}
     },
-    "{templates/themes/**}": {
+    "react/templates/themes": {
       "teambit.react/react": {}
     },
-    "{templates/envs/*}, {templates/apps/*}": {
+    "react/templates/envs, react/templates/apps": {
       "teambit.harmony/aspect": {}
     },
-    "{readme}": {
+    "react/readme": {
       "teambit.mdx/mdx": {}
+    },
+    "react-native/templates/ui": {
+      "teambit.react/templates/react-native/envs/my-react-native": {}
+    },
+    "react-native/templates/envs": {
+      "teambit.harmony/aspect": {}
     }
   }
 }
