@@ -34,14 +34,14 @@
         "rootDir": "react/templates/pages/welcome"
     },
     "templates/react-native/envs/my-react-native": {
-        "scope": "",
-        "version": "",
+        "scope": "teambit.react",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "react-native/templates/envs/my-react-native"
     },
     "templates/react-native/ui/text": {
-        "scope": "",
-        "version": "",
+        "scope": "teambit.react",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "react-native/templates/ui/text"
     },
