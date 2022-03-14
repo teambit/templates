@@ -17,7 +17,7 @@
     },
     "templates/apps/my-app": {
         "scope": "teambit.react",
-        "version": "0.0.4",
+        "version": "0.0.5",
         "mainFile": "index.ts",
         "rootDir": "react/templates/apps/my-app"
     },
@@ -29,7 +29,7 @@
     },
     "templates/pages/welcome": {
         "scope": "teambit.react",
-        "version": "0.0.19",
+        "version": "0.0.20",
         "mainFile": "index.ts",
         "rootDir": "react/templates/pages/welcome"
     },
@@ -59,7 +59,7 @@
     },
     "templates/ui/card": {
         "scope": "teambit.react",
-        "version": "0.0.18",
+        "version": "0.0.19",
         "mainFile": "index.ts",
         "rootDir": "react/templates/ui/card"
     },
