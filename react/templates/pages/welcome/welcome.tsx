@@ -14,7 +14,7 @@ export function Welcome() {
       />
       <div className={styles.grid}>
         <Card
-          link="https://harmony-docs.bit.dev/getting-started/installing-bit"
+          link="https://bit.dev/docs/getting-started/installing-bit/installing-bit"
           heading="Docs"
           text="see more from the docs"
         />
@@ -30,7 +30,7 @@ export function Welcome() {
           text="lean how to self host these components"
         />
         <Card
-          link="https://harmony-docs.bit.dev/getting-started/remote-scope"
+          link="https://bit.dev/docs/scope/scope-overview"
           heading="Bit Cloud"
           text="lean how to publish to the Bit cloud"
         />
@@ -43,31 +43,31 @@ export function Welcome() {
 
       <div className={styles.grid}>
         <Card
-          link="https://harmony-docs.bit.dev/aspects/generator"
+          link="https://bit.dev/docs/dev-services-overview/generator/generator-overview"
           heading="Templates"
           text="see a list of available templates"
           command="bit templates"
         />
         <Card
-          link="https://harmony-docs.bit.dev/building-with-bit/creating-components"
+          link="https://bit.dev/docs/getting-started/composing/spec-breakdown"
           heading="Create"
           text="create your own components"
           command="bit create react ui/button"
         />
         <Card
-          link="https://harmony-docs.bit.dev/building-with-bit/consuming-components"
+          link="https://bit.dev/docs/getting-started/composing/use-dependencies"
           heading="Install"
           text="install components from elsewhere"
           command="bit install @teambit/design.templates.ui.external-link"
         />
         <Card
-          link="https://harmony-docs.bit.dev/building-with-bit/consuming-components#import-components"
+          link="https://bit.dev/docs/getting-started/collaborate/importing-components"
           heading="Import"
           text="import components into your workspace"
           command="bit import @teambit/documenter.theme.theme-compositions"
         />
         <Card
-          link="https://harmony-docs.bit.dev/building-with-bit/versioning-components"
+          link="https://bit.dev/docs/components/tags"
           heading="Tag"
           text="create a version of your components"
           command={`bit tag --all --message "first version"`}
@@ -79,13 +79,13 @@ export function Welcome() {
           command="bit snap --all"
         /> */}
         <Card
-          link="https://harmony-docs.bit.dev/building-with-bit/exporting-components"
+          link="https://bit.dev/docs/getting-started/collaborate/exporting-components"
           heading="Export"
           text="export your components"
           command="bit export"
         />
         <Card
-          link="https://harmony-docs.bit.dev/building-with-bit/removing-components"
+          link="https://bit.dev/docs/components/removing-components"
           heading="Remove"
           text="remove components and their files"
           command={`bit remove "ui/*" --delete-files`}
